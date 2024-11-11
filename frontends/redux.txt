@@ -1,0 +1,26 @@
+what is redux??
+
+Redux is a state management library for JavaScript applications that helps you manage and share application data in a predictable way.
+
+
+Basically it is like a big toy box that keeps all your toys (data) in one place, making it easy to find and use them whenever you want.
+
+Three parts = Actions, Reducer, Constant
+
+Action = describes what happened and communicates with the middleware, which can then interact with the server
+it is also where the code knows who is triggered 
+EX. so when a user press a button the action will ask the server to provide the action for that
+
+Reducer: it holds the state. The reducer checks the action type (like request, success, or fail) to determine how to update the state. 
+
+
+Constant: provides name or labels for actions (WHCIH HELP WITH COMMUCATION AND EXPORTING )
+
+EXAMPLE
+
+User clicks a button.
+
+ACTION: Describes what happened and sends this information to the middleware, which may then communicate with the server.
+
+REDUCER: Holds the state and uses different cases to return the updated state based on the received actions.
+
