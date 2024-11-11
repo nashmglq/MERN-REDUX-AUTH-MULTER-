@@ -1,0 +1,50 @@
+SHOW DATABASES; = to show DATABASES
+SELECT DATABASE(); = to know what database am i in
+USE your_database_name; = to use database
+
+
+CREATING A TABLE:
+
+CREATE TABLE table_name (
+    column1 datatype constraints,
+    column2 datatype constraints,
+    ...
+); = TO CREATE A TABLE
+
+
+
+
+ADDING ROWS:
+
+INSERT INTO table_name (column1, column2, ...) VALUES (value1, value2, ...);
+
+
+
+Adding Columns:
+
+ALTER TABLE table_name
+ADD column_name datatype constraints;
+
+
+Modifying Columns:
+
+ALTER TABLE table_name
+MODIFY column_name new_datatype constraints;
+
+
+Dropping Columns:
+
+ALTER TABLE table_name
+DROP COLUMN column_name;
+
+
+Changing Column Name:
+
+ALTER TABLE table_name
+CHANGE old_column_name new_column_name datatype constraints;
+
+
+
+Showing the Whole Table:
+
+SELECT * FROM table_name;
